@@ -34,3 +34,6 @@ PLAN.md
 RECORDING_GUIDE.md
 scripts/prove-bug.ts
 scripts/prove-bug-live.ts
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat

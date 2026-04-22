@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tsx scripts/dev.ts",
-    "build": "next build",
-    "start": "tsx scripts/dev.ts start",
+    "dev": "node api.js && tsx scripts/dev.ts",
+    "build": "node api.js && next build",
+    "start": "node api.js && tsx scripts/dev.ts start",
     "port": "tsx scripts/assign-port.ts",
     "migrate": "tsx scripts/migrate.ts",
     "sync": "tsx scripts/sync-issues.ts",
